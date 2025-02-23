@@ -1,7 +1,7 @@
 'use client';
 
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, JSX} from 'react';
 import { Send, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import AnimatedMessage from '../components/AnimatedMessage';
