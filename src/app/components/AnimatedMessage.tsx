@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, ReactNode, ReactElement } from 'react';
+import React, { useState, useEffect, ReactNode, ReactElement,JSX } from 'react';
 
 interface TypewriterTextProps {
   text: string;
