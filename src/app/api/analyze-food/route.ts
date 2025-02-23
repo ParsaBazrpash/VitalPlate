@@ -91,7 +91,7 @@ export async function POST(request: Request) {
 
     // 2. Get nutritional information from USDA
     const usdaResponse = await fetch(
-      `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=${process.env.USDA_API_KEY}&query=${foods[0]}`,
+      `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=WavWYq1Wfx1eINc2TV0ibQQAu0f2GzWQzGWSb225&query=${foods[0]}`,
       {
         method: 'GET',
         headers: {
