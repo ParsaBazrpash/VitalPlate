@@ -1,0 +1,258 @@
+{
+    "headache": {
+      "foods": [
+        "Water-rich foods (watermelon, cucumber)",
+        "Magnesium-rich foods (almonds, spinach)",
+        "Potassium-rich foods (bananas, sweet potatoes)",
+        "Ginger tea",
+        "Small amounts of caffeine (if not caffeine sensitive)"
+      ],
+      "avoid": [
+        "Processed foods high in sodium",
+        "Aged cheeses",
+        "Red wine",
+        "Foods with MSG",
+        "Artificial sweeteners"
+      ],
+      "recipes": [
+        {
+          "name": "Soothing Ginger Tea",
+          "description": "A calming tea that may help with headache relief"
+        },
+        {
+          "name": "Magnesium-Rich Smoothie Bowl",
+          "description": "Packed with spinach, almonds, and banana"
+        },
+        {
+          "name": "Hydrating Cucumber Salad",
+          "description": "Light and refreshing with electrolytes"
+        }
+      ]
+    },
+    "stomach ache": {
+      "foods": [
+        "BRAT diet (Bananas, Rice, Applesauce, Toast)",
+        "Clear broths",
+        "Ginger or peppermint tea",
+        "Plain yogurt with probiotics",
+        "Cooked carrots or sweet potatoes"
+      ],
+      "avoid": [
+        "Dairy products",
+        "Spicy foods",
+        "Fatty or fried foods",
+        "Citrus fruits",
+        "Raw vegetables"
+      ],
+      "recipes": [
+        {
+          "name": "Simple Rice Porridge",
+          "description": "Gentle on the stomach and easy to digest"
+        },
+        {
+          "name": "Clear Vegetable Broth",
+          "description": "Light and nourishing"
+        },
+        {
+          "name": "Baked Cinnamon Applesauce",
+          "description": "Soothing and naturally sweet"
+        }
+      ]
+    },
+    "sore throat": {
+      "foods": [
+        "Warm honey and lemon tea",
+        "Chicken soup",
+        "Smoothies",
+        "Warm oatmeal",
+        "Cold foods like ice cream or popsicles"
+      ],
+      "avoid": [
+        "Acidic foods",
+        "Crunchy or hard foods",
+        "Spicy foods",
+        "Very hot foods",
+        "Alcohol"
+      ],
+      "recipes": [
+        {
+          "name": "Honey Lemon Tea",
+          "description": "Soothing for sore throats"
+        },
+        {
+          "name": "Classic Chicken Soup",
+          "description": "Comforting and healing"
+        },
+        {
+          "name": "Chamomile Honey Popsicles",
+          "description": "Cooling relief for throat pain"
+        }
+      ]
+    },
+    "fever": {
+      "foods": [
+        "Clear broths",
+        "Water-rich fruits",
+        "Light soups",
+        "Herbal teas",
+        "Bone broth"
+      ],
+      "avoid": [
+        "Heavy meals",
+        "Processed foods",
+        "Sugary foods",
+        "Alcohol",
+        "Caffeine"
+      ],
+      "recipes": [
+        {
+          "name": "Light Vegetable Soup",
+          "description": "Easy to digest and hydrating"
+        },
+        {
+          "name": "Healing Bone Broth",
+          "description": "Nutrient-rich and restorative"
+        },
+        {
+          "name": "Watermelon Mint Juice",
+          "description": "Hydrating and cooling"
+        }
+      ]
+    },
+    "cold": {
+      "foods": [
+        "Clear broths",
+        "Water-rich fruits",
+        "Light soups",
+        "Herbal teas",
+        "Bone broth"
+      ],
+      "avoid": [
+        "Heavy meals",
+        "Processed foods",
+        "Sugary foods",
+        "Alcohol",
+        "Caffeine"
+      ],
+      "recipes": [
+        {
+          "name": "Light Vegetable Soup",
+          "description": "Easy to digest and hydrating"
+        },
+        {
+          "name": "Healing Bone Broth",
+          "description": "Nutrient-rich and restorative"
+        },
+        {
+          "name": "Watermelon Mint Juice",
+          "description": "Hydrating and cooling"
+        }
+      ]
+    },
+    "pregnant": {
+      "foods": [
+        "Folate-rich foods (spinach, lentils, avocado)",
+        "Iron-rich foods (lean meats, beans, fortified cereals)",
+        "Calcium-rich foods (yogurt, cheese, leafy greens)",
+        "Omega-3 fatty acids (salmon, walnuts, flaxseeds)",
+        "Protein-rich foods (eggs, tofu, lean poultry)"
+      ],
+      "avoid": [
+        "Raw fish and seafood",
+        "Unpasteurized dairy",
+        "Deli meats",
+        "Caffeine in large amounts",
+        "Alcohol"
+      ],
+      "recipes": [
+        {
+          "name": "Iron-Boosting Lentil Soup",
+          "description": "Packed with protein and iron"
+        },
+        {
+          "name": "Healthy Avocado Toast",
+          "description": "Rich in folate and healthy fats"
+        },
+        {
+          "name": "Calcium-Rich Green Smoothie",
+          "description": "Great for bone health"
+        }
+      ]
+    },
+    "vegan": {
+      "foods": [
+        "Vitamin B12-rich foods (nutritional yeast, fortified cereals, B12 supplements)",
+        "Zinc-rich foods (pumpkin seeds, cashews, quinoa, whole grains)",
+        "Magnesium-rich foods (dark chocolate, almonds, spinach, black beans, avocado)",
+        "Antioxidant-rich foods (berries, dark chocolate, pecans, artichokes, kidney beans)",
+        "Fiber-rich foods (chia seeds, flaxseeds, lentils, whole grains, apples)",
+        "Protein-rich foods (tempeh, lentils, chickpeas, seitan, edamame)"
+      ],
+      "avoid":[],
+      "recipes": [
+        {
+          "name": "Magnesium-Rich Black Bean & Avocado Wrap",
+          "description": "Great for heart health and muscle relaxation"
+        },
+        {
+          "name": "B12-Fortified Tofu Scramble",
+          "description": "Supports brain function and energy levels with B12"
+        },
+        {
+          "name": "Antioxidant Smoothie Bowl",
+          "description": "Rich in antioxidants to support immune health and glowing skin"
+        }
+      ]
+    },
+    "vegetarian": {
+      "foods": [
+        "Vitamin B12-rich foods (nutritional yeast, eggs, dairy, fortified cereals)",
+        "Iron-rich foods (quinoa, pumpkin seeds, spinach, chickpeas)",
+        "Zinc-rich foods (pumpkin seeds, cashews, cheese, yogurt)",
+        "Omega-3 fatty acids (chia seeds, flaxseeds, walnuts, hemp seeds)",
+        "Calcium-rich foods (yogurt, cheese, almonds, leafy greens)",
+        "Protein-rich foods (eggs, dairy, tempeh, lentils, chickpeas, seitan)"
+      ],
+      "avoid":[],
+      "recipes": [
+        {
+          "name": "Omega-3 Chia Pudding with Walnuts & Berries",
+          "description": "A brain-boosting breakfast packed with plant-based omega-3s"
+        },
+        {
+          "name": "Zinc-Boosted Chickpea & Quinoa Power Bowl",
+          "description": "A filling meal rich in zinc, fiber, and plant-based protein"
+        },
+        {
+          "name": "High-Protein Edamame & Tempeh Stir-Fry",
+          "description": "Packed with plant-based protein and essential amino acids"
+        }
+      ]
+    },
+    "gluten free": {
+      "foods": [
+        "Vitamin B12-rich foods (fortified nutritional yeast, fish, eggs, dairy products)",
+        "Iron-rich foods (amaranth, buckwheat, quinoa, cashews, pumpkin seeds, dried apricots, liver)",
+        "Zinc-rich foods (chia seeds, cashews, sunflower seeds, dairy, pumpkin seeds)",
+        "Omega-3 fatty acids (chia seeds, flaxseeds, walnuts, sardines, mackerel)",
+        "Calcium-rich foods (broccoli, bok choy, tahini, figs, almonds, dairy)",
+        "Protein-rich foods (chicken, turkey, fish, eggs, quinoa, pumpkin seeds)"
+      ],
+      "avoid":[],
+      "recipes": [
+        {
+          "name": "Iron-Rich Grilled Chicken with Amaranth and Broccoli",
+          "description": "A protein-packed, iron-rich meal for a well-balanced dish"
+        },
+        {
+          "name": "Protein-Packed Salmon and Avocado Wrap",
+          "description": "A delicious wrap filled with omega-3-rich salmon and fresh veggies"
+        },
+        {
+          "name": "Coconut Flour Pancakes",
+          "description": "Fluffy and wholesome coconut flour pancakes, lightly sweetened with maple syrup"
+        }
+      ]
+    }
+   }
+   
