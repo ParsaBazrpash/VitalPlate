@@ -40,25 +40,25 @@ const AboutPage: React.FC = () => {
       name: "Parsa Bazrpash",
       role: "Team Member",
       image: "/images/parsa.jpg",
-      description: "Full-stack developer and AI enthusiast"
+      description: "Full-stack developer and UI/UX Designer"
     },
     {
       name: "Jaena Orozco",
       role: "Team Member",
       image: "/images/jaena.jpeg",
-      description: "UI/UX specialist and frontend developer"
+      description: "Full-stack developer and AI enthusiast"
     },
     {
       name: "Vinay Nair",
       role: "Team Member",
       image: "/images/vinay.jpeg",
-      description: "Backend developer and health tech innovator"
+      description: "Backend developer and Security Manager"
     },
     {
       name: "Aliza Karachiwalla",
       role: "Team Member",
       image: "/images/aliza.jpg",
-      description: "Full-stack developer and health analytics expert"
+      description: "Backend developer and Researcher"
     }
   ];
 
