@@ -1,4 +1,3 @@
-// app/api/analyze-food/route.ts
 import { NextResponse } from 'next/server';
 
 // Interfaces for Clarifai API response
@@ -58,7 +57,7 @@ export async function POST(request: Request) {
       {
         method: 'POST',
         headers: {
-          'Authorization': `Key ${process.env.CLARIFAI_API_KEY}`,
+          'Authorization': `Key fb1b19a718b14263b89ca3e8f00c160c`,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
