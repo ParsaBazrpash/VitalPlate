@@ -1,16 +1,12 @@
-
-
-
-
-
-
 "use client";
 import React, { useState, ChangeEvent } from "react";
-import { auth } from "../config/firebase"; // adjust path to your firebase config
+import { auth } from "../config/firebase"; // adjust path to your Firebase config
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-  AuthError
+  AuthError,
+  GoogleAuthProvider,
+  signInWithPopup,
 } from "firebase/auth";
 import { X } from "lucide-react";
 
@@ -53,11 +49,7 @@ export default function Auth({ setIsLoginOpen, onLogin }: AuthProps) {
 
   const handleLogIn = async () => {
     try {
-      const userCredential = await signInWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       console.log("Logged in user ID:", user.uid);
       alert("User logged in successfully!");
@@ -70,6 +62,33 @@ export default function Auth({ setIsLoginOpen, onLogin }: AuthProps) {
       const error = err as AuthError;
       console.error("Error during log-in:", error.message);
       alert(error.message);
+    }
+  };
+
+
+  // New: Google Sign-In
+  const handleGoogleSignIn = async () => {
+    try {
+      const provider = new GoogleAuthProvider();
+      const result = await signInWithPopup(auth, provider);
+      // This gives you a Google Access Token. You can use it to access the Google API if needed.
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      const token = credential?.accessToken;
+
+
+      // The signed-in user info.
+      const user = result.user;
+      console.log("Google Sign-In user:", user);
+      alert("User signed in with Google successfully!");
+
+
+      // Call the parent's onLogin callback
+      onLogin();
+      handleClose();
+    } catch (error) {
+      const err = error as AuthError;
+      console.error("Error during Google Sign-In:", err.message);
+      alert(err.message);
     }
   };
 
@@ -136,6 +155,22 @@ export default function Auth({ setIsLoginOpen, onLogin }: AuthProps) {
           >
             {isSignUp ? "Sign Up" : "Log In"}
           </button>
+
+
+          {/* Google Sign-In Button */}
+          <button
+            onClick={handleGoogleSignIn}
+            className="w-full flex items-center justify-center space-x-2 mt-2 py-2 px-4 border border-gray-300 rounded text-gray-700 hover:bg-gray-100 transition duration-200"
+          >
+            <img
+              src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+              alt="Google logo"
+              className="w-5 h-5"
+            />
+            <span>Sign In with Google</span>
+          </button>
+
+
           <p className="text-center mt-4 text-gray-600">
             {isSignUp ? "Already have an account?" : "Don't have an account?"}{" "}
             <button
