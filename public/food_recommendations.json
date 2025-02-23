@@ -1,4 +1,18 @@
 {
+  "hello": {
+    "Text": [
+      "Hello! I'm here to help you find the right foods for your needs.",
+      "Whether you're looking for recipes to soothe a sore throat or boost your energy, I've got you covered.",
+      "Just let me know what you're looking for, and I'll provide you with some personalized recommendations."
+    ]
+  },
+  "goodbye": {
+    "text": [
+      "Goodbye! I hope you found the information helpful and that you enjoy the recipes.",
+      "If you have any other questions or need more recommendations in the future, feel free to ask.",
+      "Take care and have a great day!"
+    ]
+  },
     "headache": {
       "foods": [
         "Water-rich foods (watermelon, cucumber)",
@@ -255,4 +269,4 @@
       ]
     }
    }
-   
+ 
