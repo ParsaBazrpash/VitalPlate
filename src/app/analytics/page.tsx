@@ -298,7 +298,7 @@ export default function HealthAnalytics() {
                   <input
                     type="text"
                     placeholder="What did you eat?"
-                    className="w-full pl-4 pr-4 py-2 border border-gray-200 rounded-lg focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                    className="w-full pl-4 pr-4 py-2 border border-gray-200 rounded-lg focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-black"
                     value={newCheckIn[meal].food}
                     onChange={(e) =>
                       setNewCheckIn((prev) => ({
