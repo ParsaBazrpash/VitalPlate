@@ -28,7 +28,7 @@ interface FoodRecommendations {
 
 interface MessageProps {
  type: 'user' | 'bot';
- message: string | TSX.Element;
+ message: string | JSX.Element;
 }
 
 
