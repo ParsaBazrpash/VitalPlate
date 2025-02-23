@@ -97,13 +97,13 @@ const LandingPage: React.FC = () => {
 
           {/* Features Section */}
           <div className="mt-12 sm:mt-20 space-y-8 sm:space-y-12">
-            {/* AI Health Assistant */}
+            {/*Health Assistant */}
             <div className="relative flex flex-col md:flex-row items-center gap-4 sm:gap-8 rounded-lg p-4 sm:p-8 hover:shadow-xl transition-all duration-300 overflow-hidden">
               <CardBackground />
               <div className="relative z-10 w-full md:w-1/3 max-w-[200px] mx-auto md:max-w-none">
                 <Image
                   src="/images/AIimage.png"
-                  alt="AI Health Assistant" 
+                  alt="Health Assistant" 
                   width={400}
                   height={300}
                   className="rounded-lg w-full h-40 sm:h-auto object-cover shadow-lg"
@@ -111,7 +111,7 @@ const LandingPage: React.FC = () => {
               </div>
               <div className="relative z-10 w-full md:w-1/2 space-y-2 sm:space-y-4 text-center md:text-left">
                 <h3 className="text-2xl sm:text-3xl font-semibold text-blue-800">
-                  AI Health Assistant
+                  Health Assistant
                 </h3>
                 <p className="text-sm sm:text-lg text-gray-800">
                   Get instant answers to your health-related questions with our advanced chatbot. Our powered assistant is available 24/7 to provide reliable health information.
