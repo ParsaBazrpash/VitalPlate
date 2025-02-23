@@ -57,7 +57,7 @@ const AboutPage: React.FC = () => {
     {
       name: "Aliza Karachiwalla",
       role: "Team Member",
-      image: "/api/placeholder/120/120",
+      image: "/images/aliza.jpg",
       description: "Full-stack developer and health analytics expert"
     }
   ];
