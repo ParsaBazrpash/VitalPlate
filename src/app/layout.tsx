@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "VitalPlate",
-  description: "Our Personal Health Companion",
+  description: "Your Personal Health Companion",
   manifest: "/manifest.json",
   icons: {
     icon: "/favicon.ico",
